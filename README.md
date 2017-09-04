@@ -22,6 +22,12 @@ console.log(obj.myFunc()) // -> 'this is myFunc'
 
 ## Install
 
+### Node
 ```
 npm install --save reset-object
+```
+
+### Browser
+```
+<script src="https://cdn.rawgit.com/magicien/reset-object/v0.1.2/reset-object.js"></script>
 ```
