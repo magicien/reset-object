@@ -1,6 +1,6 @@
 {
   "name": "reset-object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reset a JavaScript Object instance to its prototype definition",
   "main": "index.js",
   "scripts": {
