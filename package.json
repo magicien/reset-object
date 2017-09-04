@@ -1,0 +1,23 @@
+{
+  "name": "reset-object",
+  "version": "0.1.0",
+  "description": "Reset a JavaScript Object instance to its prototype definition",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicien/reset-object.git"
+  },
+  "author": "magicien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicien/reset-object/issues"
+  },
+  "homepage": "https://github.com/magicien/reset-object#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
