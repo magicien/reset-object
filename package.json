@@ -4,6 +4,7 @@
   "description": "Reset a JavaScript Object instance to its prototype definition",
   "main": "index.js",
   "scripts": {
+    "build": "uglifyjs index.js -c | browserify - --standalone resetObject -o index.web.js",
     "test": "mocha"
   },
   "repository": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/magicien/reset-object#readme",
   "devDependencies": {
+    "browserify": "^14.4.0",
     "chai": "^4.1.2",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "uglify-es": "^3.0.28"
   }
 }
