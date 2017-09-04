@@ -19,3 +19,9 @@ resetObject(obj)
 
 console.log(obj.myFunc()) // -> 'this is myFunc'
 ```
+
+## Install
+
+```
+npm install --save reset-object
+```
